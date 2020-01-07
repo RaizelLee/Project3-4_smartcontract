@@ -36,8 +36,8 @@ contract selling_carrot{
         require(address(this).balance >= 0.0001 ether && keccak256(bytes(order_state))==keccak256("empty"),"fail!");
         //驗證農夫是否有錢與狀態是否非empty
         contract_ID.transfer(0.0001 ether);//for guarantee
-        carrot_money = _carrot_money;
-        carrot_number = _carrot_number;
+        carrot_money = _carrot_money;//設定要賣的農產品多少錢
+        carrot_number = _carrot_number;//設定要賣的農產品的數量
         order_state = "new_carrot";
     } 
    
@@ -58,8 +58,8 @@ contract selling_carrot{
         
         consumer_ID = msg.sender; //將顧客加進合約
         contract_ID.transfer(carrot_money*_buy_carrot_number +0.00005 ether);//加50元進入訂單金額
-        buy_carrot_number = _buy_carrot_number;
-        carrot_number -= _buy_carrot_number;
+        buy_carrot_number = _buy_carrot_number;//設定要買的農產品數量
+        carrot_number -= _buy_carrot_number;//總農產品數量扣除要買的數量
         order_state = "buy_carrot"; //將狀態改為buy_carrot
     } 
     
@@ -74,51 +74,51 @@ contract selling_carrot{
     
     function _change_order_state(bool _yes_or_no)public payable {
         if(msg.sender==farmer_ID){
-            if(keccak256(bytes(order_state))==keccak256("buy_carrot") && _yes_or_no){
-                order_state = "farmer_send_carrot";
+            if(keccak256(bytes(order_state))==keccak256("buy_carrot") && _yes_or_no){//如果訂單狀態是buy_carrot，代表已下單，農夫要送出農產品
+                order_state = "farmer_send_carrot";//將訂單狀態改為農夫已送出
                 
             }
-            else if(keccak256(bytes(order_state))==keccak256("return_upload_picture") && _yes_or_no){
-                    if(_yes_or_no == true){
+            else if(keccak256(bytes(order_state))==keccak256("return_upload_picture") && _yes_or_no){//此為退貨流程，如果訂單狀態是買家以上傳產品霞問題圖片，農夫審核
+                    if(_yes_or_no == true){ //如果農夫選擇yes，代表農夫認同產品有問題，願意重新寄一份產品給買家
                         order_state = "you_can_change";
                         return_picture = true;
                     }
-                    else if(_yes_or_no == false){
+                    else if(_yes_or_no == false){//如果農夫選擇no，代表農夫不認同產品有問題，不願意重新寄一份產品給買家
                         order_state = "cannot_change";
                         return_picture =false;
                     }
             }
         }
         else if(msg.sender==COA_ID){
-            if(keccak256(bytes(order_state))==keccak256("new_carrot") && _yes_or_no){
-                order_state = "good_carrot";
+            if(keccak256(bytes(order_state))==keccak256("new_carrot") && _yes_or_no){//如果訂單狀態是農夫開啟新的產品買賣，農委會就要做產品檢驗
+                order_state = "good_carrot";//如果農會送出yes，代表產品檢驗通過
             }
-            else if(keccak256(bytes(order_state))==keccak256("new_carrot") && !_yes_or_no){
+            else if(keccak256(bytes(order_state))==keccak256("new_carrot") && !_yes_or_no){//如果農委會送出no，代表檢驗不合個
                 order_state = "bad_carrot";
             }
         }
         else if(msg.sender==deliver_ID){
-            if(keccak256(bytes(order_state))==keccak256("farmer_send_carrot") && _yes_or_no){
-                order_state = "deliver_send_carrot";
+            if(keccak256(bytes(order_state))==keccak256("farmer_send_carrot") && _yes_or_no){//如果訂單狀態是農夫已送出商品
+                order_state = "deliver_send_carrot";//快遞送出yes代表快遞已送達商品
             }
-            else if(keccak256(bytes(order_state))==keccak256("you_can_change") && _yes_or_no){
-                order_state = "return_deliver_send_carrot";
+            else if(keccak256(bytes(order_state))==keccak256("you_can_change") && _yes_or_no){//這是退貨流程，如果訂單狀態是賣家願意重送，快遞需幫忙送
+                order_state = "return_deliver_send_carrot";//代表快遞已送達重送的商品
             }
         }
         else if(msg.sender==consumer_ID){
-            if(keccak256(bytes(order_state))==keccak256("deliver_send_carrot") && _yes_or_no){
-                order_state = "comsumer_recieve_carrot";
+            if(keccak256(bytes(order_state))==keccak256("deliver_send_carrot") && _yes_or_no){//如果商品訂單狀態是快遞已送達
+                order_state = "comsumer_recieve_carrot";//買家表示已收到
             }
-            else if(keccak256(bytes(order_state))==keccak256("comsumer_recieve_carrot") && _yes_or_no){
+            else if(keccak256(bytes(order_state))==keccak256("comsumer_recieve_carrot") && _yes_or_no){//如果訂單狀態是使用者已收到
                 return_picture = false;   
-                order_state = "return_upload_picture";
+                order_state = "return_upload_picture"; //買家要換貨，上傳商品問題照片
             }
-            else if(keccak256(bytes(order_state))==keccak256("return_deliver_send_carrot") && _yes_or_no){
-                order_state = "return_recieve_carrot";
+            else if(keccak256(bytes(order_state))==keccak256("return_deliver_send_carrot") && _yes_or_no){//如果訂單狀態是快遞已送達重送的商品
+                order_state = "return_recieve_carrot";//買家表示收到
             }
         }
         else if(msg.sender==contract_ID){
-            if(keccak256(bytes(order_state))==keccak256("comsumer_recieve_carrot") && _yes_or_no){
+            if(keccak256(bytes(order_state))==keccak256("comsumer_recieve_carrot") && _yes_or_no){//如果訂單狀態是買家已收到，且3天內沒有反映需要退貨，合約撥錢給賣家和快遞
                 farmer_ID.transfer(carrot_money*buy_carrot_number);
                 deliver_ID.transfer(0.00005 ether);
                 order_state = "money_send_finshed";
